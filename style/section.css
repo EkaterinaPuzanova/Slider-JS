@@ -1,0 +1,149 @@
+.slider__wrapper {
+    max-width: 1191px;
+    padding: 0 10px;
+    margin: 107px auto auto;
+}
+
+.slider__links {
+    list-style-type: none;
+    display: flex;
+    justify-content: space-between;
+    width: 623px;
+    margin: 59px auto auto 493px;
+}
+
+.slider__link {
+    text-decoration: none;
+    padding-bottom: 3px;
+    color: var(--color-light);
+    opacity: .3;
+    font-size: 14px;
+    line-height: 19px;
+}
+
+.slider__link:hover,
+.slider__link_checked {
+    color: var(--color-theme3);
+    opacity: 1;
+    border-bottom: 1px solid var(--color-theme3);
+}
+
+.slider__content {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 45px;
+}
+
+.title {
+    font-size: var(--fs0);
+    line-height:var(--lh0);
+    text-align: center;
+    text-transform: uppercase;
+    color: var(--color-light);
+}
+
+.slider__title {
+    width: 253px;
+    font-size: var(--fs4);
+    line-height: var(--lh4);
+    letter-spacing: -0.07em;
+    color: var(--color-theme3);
+}
+
+.slider__subtitle {
+    margin-top: 25px;
+    width: 442px;
+    font-size: var(--fs5);
+    line-height: var(--lh5);
+    font-weight: 400;
+    color: var(--color-light);
+}
+
+.content-section2__small {
+    display: none;
+}
+
+.slider__info-items {
+    margin-top: 47px;
+    margin-right: 25px;
+    display: grid;
+    grid-template-columns: repeat(2, auto);
+    grid-template-rows: repeat(2, auto);
+    grid-column-gap: 10px;
+    grid-row-gap: 32px;
+}
+
+.slider__info-title {
+    font-size: var(--fs6);
+    line-height: var(--lh6);
+    color: var(--color-theme3);
+}
+
+.slider__info-subtitle {
+    margin-top: 9px;
+    font-size: var(--fs7);
+    line-height: var(--lh7);
+    color: var(--color-light);
+}
+
+.slider__img {
+    width: 679px;
+    height: 482px;
+}
+
+.slider__buttons {
+    margin-top: 82px;
+    width: 206px;
+    height: 13px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.button-arrow {
+    background: transparent;
+    border: none;
+}
+
+.slider__link,
+.circle__page {
+    transition: all 0.3s ease;
+}
+
+.button-circle {
+    width: 64px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.circle__page {
+    opacity: .3;
+}
+
+.circle__page:hover,
+.circle__page_checked {
+    opacity: 1;
+}
+
+.slider__link,
+.circle__page,
+.button-arrow {
+    cursor: pointer;
+}
+
+.slider__link,
+.slider__title,
+.slider__info-title {
+    text-transform: uppercase;
+}
+
+.slider__link,
+.title,
+.slider__title,
+.slider__info-title {
+    font-family: 'Yeseva One';
+    font-weight: 400;
+}
+
+button:hover {
+    animation: bounce 1s;
+}

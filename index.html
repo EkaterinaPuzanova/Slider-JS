@@ -4,10 +4,58 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="assets/images/ico.ico">
+    <link rel="stylesheet" href="style/style.css">
     <title>Slider-JS</title>
 </head>
 <body>
-    <script src="/script/index.js"></script>
+    <section class="slider" id="slider">
+        <div class="slider__wrapper">
+            <ul class="slider__links">
+                <li class="slider__link slider__link_checked">Rostov-on-Don, Admiral</li>
+                <li class="slider__link">Sochi Thieves</li>
+                <li class="slider__link">Rostov-on-Don Patriotic</li>
+            </ul>
+            <div class="slider__content">
+                <div class="slider__info">
+                    <div class="slider__description">
+                        <h2 class="slider__title">Completed projects</h2>
+                        <p class="slider__subtitle">Only a small part of the work performed by our company is presented on the site. For 14 years on in the construction<br>market we have made happy more than 1000 families</p>
+                        <div class="slider__info-items">
+                            <div class="slider__info-item">
+                                <h3 class="slider__info-title">City:</h3>
+                                <p class="slider__info-subtitle">Rostov-on-Don<br>LCD admiral</p>
+                            </div>
+                            <div class="slider__info-item">
+                                <h3 class="slider__info-title">Apartment area:</h3>
+                                <p class="slider__info-subtitle">81 m2</p>
+                            </div>
+                            <div class="slider__info-item">
+                                <h3 class="slider__info-title">Repair time:</h3>
+                                <p class="slider__info-subtitle">3.5 months</p>
+                            </div>
+                            <div class="slider__info-item">
+                                <h3 class="slider__info-title">Repair Cost:</h3>
+                                <p class="slider__info-subtitle">Upon request</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="slider__buttons">
+                        <button class="button-arrow left-arrow" id="left-arrow"><img src="assets/images/left-arrow.svg" alt="left-arrow"></button>
+                        <div class="button-circle">
+                            <img src="assets/images/circle.svg" alt="circle" class="circle__page circle__page_checked">
+                            <img src="assets/images/circle.svg" alt="circle" class="circle__page">
+                            <img src="assets/images/circle.svg" alt="circle" class="circle__page">
+                        </div>
+                        <button class="button-arrow right-arrow" id="right-arrow"><img src="assets/images/right-arrow.svg" alt="right-arrow"></button>
+                    </div>
+                </div>
+                <div class="slider__img">
+                    <img src="assets/images/slider-img.jpg" alt="example-interior">
+                </div>
+            </div>
+        </div>
+    </section>
+    <script src="script/script.js"></script>
 </body>
 </html>

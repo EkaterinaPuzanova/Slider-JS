@@ -1,0 +1,36 @@
+@font-face {
+	font-family: 'Nunito Sans';
+	src: url('../assets/fonts/NunitoSans-Regular.woff2'), url('../assets/fonts/NunitoSans-Regular.woff');
+	font-weight: 400;
+	font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+	font-family: 'Yeseva One';
+	src: url('../assets/fonts/YesevaOne-Regular.woff2'), url('../assets/fonts/YesevaOne-Regular.woff');
+	font-weight: 400;
+	font-style: normal;
+    font-display: swap;
+}
+
+:root {
+    --color-dark: #131313;
+    --color-light: #FFFFFF;
+    --color-theme3: #E3B873;
+    --color-theme4: rgba(227, 184, 115, 0.2);
+
+    --fs0: 1.25rem;     
+    --fs1: .68rem;     
+    --fs4: 1.69rem;    
+    --fs5: 0.88rem;    
+    --fs6: 1.13rem;
+    --fs7: .81rem;
+
+    --lh0: 1.75rem;
+    --lh1: .93rem;
+    --lh4: 2.32rem;
+    --lh5: 1.69rem;
+    --lh6: 1.56rem;
+    --lh7: 1.31rem;
+}
