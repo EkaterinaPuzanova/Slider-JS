@@ -87,8 +87,21 @@
 }
 
 .slider__img {
+    position: relative;
     width: 679px;
     height: 482px;
+}
+
+.img {
+    position: absolute;
+    left: 0;
+    top: 0;
+    opacity: 0;
+    transition: opacity 800ms ease;
+}
+
+.img.active {
+    opacity: 1;
 }
 
 .slider__buttons {
@@ -105,7 +118,11 @@
 }
 
 .slider__link,
-.circle__page {
+.circle__page,
+.img,
+.subtitle-apart,
+.subtitle-city,
+.subtitle-time {
     transition: all 0.3s ease;
 }
 
@@ -122,6 +139,11 @@
 .circle__page:hover,
 .circle__page_checked {
     opacity: 1;
+}
+
+.circle__page_checked,
+.slider__link_checked {
+    pointer-events: none;
 }
 
 .slider__link,
