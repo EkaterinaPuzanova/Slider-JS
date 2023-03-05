@@ -1,4 +1,4 @@
-import { data } from 'data.js';
+import { data } from '/js/data.js';
 
 function initSlider() {
 
